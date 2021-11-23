@@ -40,7 +40,7 @@ public abstract class MinecraftGUI extends Screen {
 	/**
 	 * Saved matrix stack;
 	 */
-	protected MatrixStack matrixStack=null;
+	protected MatrixStack matrixStack=new PoseStack();
 	
 	/**
 	 * Constructor.
